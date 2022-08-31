@@ -1,0 +1,27 @@
+button._1:hover{
+  background-color: darkorchid;
+  border-radius: 32px;
+}
+button._1{
+  transition: all 500ms;
+}
+button._2:hover{
+  animation: my-anim 1s;
+}
+
+
+@keyframes my-anim{
+  from{
+    transform: scale(1);
+    
+  }
+
+  50%{
+    transform: scale(150%);
+  }
+  
+  to{
+    transform: scale(1);
+    
+  }
+}
